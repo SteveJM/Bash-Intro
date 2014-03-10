@@ -4,8 +4,8 @@ For these exercises type the characters in quotes as they are shown below and pr
 
 1. Start by checking that you are in the couse directory:
 
-    >    Type: 'cd ~'
-    >    Type: 'ls'
+    >   Type: 'cd ~'
+    >   Type: 'ls'
 
     You should, see a directory listing, as a minimum you should see you 'BashIntroExercises' directory.
 
@@ -13,25 +13,25 @@ For these exercises type the characters in quotes as they are shown below and pr
 
     This is a listing of 'all' files and directories in your current directory. As a minimum, note that in addition to the output from 1. above, it includes two special directories:
 
-    >    .  This represents the 'current' directory, i.e. the directory that you are listing.  
-    >    .. This represents the 'parent' directory, i.e. the one above the directory that you are listing  
+    >   .  This represents the 'current' directory, i.e. the directory that you are listing.  
+    >   .. This represents the 'parent' directory, i.e. the one above the directory that you are listing  
     You may recall that you used this in the previous section to change directory to the parent directory.
 
 3. We can also list the contents of any other directory.
 
-    >    Type: 'ls ..'
+    >   Type: 'ls ..'
 
     This is a listing of the contents of your parent directory.
 
 4. Here's another example:
 
-    >    Type: 'ls /tmp'
+    >   Type: 'ls /tmp'
 
     This is a listing of the '/tmp' directory.
 
 5. The 'ls' command will also show us more information.
 
-    >    Type: 'ls -l /tmp'
+    >   Type: 'ls -l /tmp'
 
     This is a 'long' listing of the '/tmp' directory. The more useful columns are listed below:  
     >   1st: The directory / file permissions  
@@ -45,8 +45,8 @@ For these exercises type the characters in quotes as they are shown below and pr
 
 6. We now want to create some files, first we will make sure that e are in the course directory.
 
-    >    Type: 'cd BashIntroExercises'  
-    >    Type: 'pwd'
+    >   Type: 'cd BashIntroExercises'  
+    >   Type: 'pwd'
 
     You should be in the 'BashIntroExercises' directory that you created during Exercise 1.
 
@@ -107,6 +107,7 @@ For these exercises type the characters in quotes as they are shown below and pr
     >   Type: 'rm -r Exercise2Backup'  
     >   Type: 'ls -l'
 
-    Now you will notice that the 'Exercise2Backup' directory has been deleted.
+    Now you will notice that the 'Exercise2Backup' directory has been deleted.  
+
 ----
     That completes this exercise. You may wish to further experiment with the 'ls', 'cp', 'cat' and 'rm' commands to make sure that you inderstand them.

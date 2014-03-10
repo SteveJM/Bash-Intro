@@ -49,4 +49,4 @@ For these exercises type the characters in quotes as they are shown below and pr
     You are back in the 'BashIntroExercises' directory that you created below your 'home' directory.  
 
 ----
-    That completes this exercise. You may wish to further experiment with the 'cd', 'mkdir' and 'rmdir' commands to make sure that you inderstand them. If you do, it would be a good idea to repeat section 6. again at the end so that you are back in you home directory.
+That completes this exercise. You may wish to further experiment with the 'cd', 'mkdir' and 'rmdir' commands to make sure that you inderstand them. If you do, it would be a good idea to repeat section 6. again at the end so that you are back in you home directory.

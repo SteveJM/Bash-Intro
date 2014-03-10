@@ -110,4 +110,4 @@ For these exercises type the characters in quotes as they are shown below and pr
     Now you will notice that the 'Exercise2Backup' directory has been deleted.  
 
 ----
-    That completes this exercise. You may wish to further experiment with the 'ls', 'cp', 'cat' and 'rm' commands to make sure that you inderstand them.
+That completes this exercise. You may wish to further experiment with the 'ls', 'cp', 'cat' and 'rm' commands to make sure that you inderstand them.

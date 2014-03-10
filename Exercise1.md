@@ -4,15 +4,15 @@ For these exercises type the characters in quotes as they are shown below and pr
 
 1. Lets understand which directory we are in.
 
-    >   Type: 'pwd'
+      Type: 'pwd'
 
     Note the location represents your current directory.
 
 2. We will now create a directory specifically for these exercises to keep our work separate from other files on your Raspberry Pi. If you, or someone else, have already done these exercises then this directory may already exist.
 
-    >   Type: 'mkdir ~/BashIntroExercises'  
-    >   Type: 'cd ~/BashIntroExercises'  
-    >   Type: 'pwd'
+      Type: 'mkdir ~/BashIntroExercises'  
+      Type: 'cd ~/BashIntroExercises'  
+      Type: 'pwd'
 
     The '~' Character has a special meaning of "My home directory". The above commands first create a new directory directly below your home directory called 'BashIntroExercises'. The next command changes to that directory, finally we confirm that we are in the expected director.  Note how the output from the 'pwd' command differs from the output in step 1.
 

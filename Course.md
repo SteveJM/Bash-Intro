@@ -1,5 +1,3 @@
-Introduction to Bash on the Raspberry Pi
-
 # Introduction
 This is a short course aimed at getting you more confortable using bash on the Raspberry Pi.  
 

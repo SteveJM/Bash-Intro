@@ -2,34 +2,34 @@
 
 For these exercises type the characters in quotes as they are shown below and press the <Return> key after each line. This exercise assumes that you have successfully completed exercise 1, which created a directory for all of the work called 'BashIntroExercises' in you home directory.
 
-* Start by checking that you are in the couse directory:
+1. Start by checking that you are in the couse directory:
 
->    Type: 'cd ~'
->    Type: 'ls'
+    >    Type: 'cd ~'
+    >    Type: 'ls'
 
-You should, see a directory listing, as a minimum you should see you 'BashIntroExercises' directory.
+    You should, see a directory listing, as a minimum you should see you 'BashIntroExercises' directory.
 
-* Type: 'ls -a'
+2. Type: 'ls -a'
 
-This is a listing of 'all' files and directories in your current directory. As a minimum, note that in addition to the output from 1. above, it includes two special directories:
+    This is a listing of 'all' files and directories in your current directory. As a minimum, note that in addition to the output from 1. above, it includes two special directories:
 
 >    .  This represents the 'current' directory, i.e. the directory that you are listing.
 >    .. This represents the 'parent' directory, i.e. the one above the directory that you are listing
        (you may recall that you used this in the previous section to change directory to the parent directory.
 
-* We can also list the contents of any other directory.
+3. We can also list the contents of any other directory.
 
 >    Type: 'ls ..'
 
-This is a listing of the contents of your parent directory.
+    This is a listing of the contents of your parent directory.
 
-* Here's another example:
+4. Here's another example:
 
 >    Type: 'ls /tmp'
 
 This is a listing of the '/tmp' directory.
 
-* The 'ls' command will also show us more information.
+5. The 'ls' command will also show us more information.
 
 >    Type: 'ls -l /tmp'
 
@@ -43,14 +43,14 @@ This is a 'long' listing of the '/tmp' directory. The more useful columns are li
 
 The more astute will also notice that the first character of the permissions field is a 'd' where the item is a directory and a '-' where the item is a regular file.
 
-* We now want to create some files, first we will make sure that e are in the course directory.
+6. We now want to create some files, first we will make sure that e are in the course directory.
 
 >    Type: 'cd BashIntroExercises'
 >    Type: 'pwd'
 
     You should be in the 'BashIntroExercises' directory that you created during Exercise 1.
 
-* Now will will repeat an earlier command with a slight twist.
+7. Now will will repeat an earlier command with a slight twist.
 
 >    Type: 'ls -l /tmp > listing.txt'
 

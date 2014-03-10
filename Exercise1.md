@@ -2,14 +2,13 @@
 
 For these exercises type the characters in quotes as they are shown below and press the <Return> key after each line.
 
-
-1.  Lets understand which directory we are in.
+* Lets understand which directory we are in.
 
 >    Type: 'pwd'
 
-    Note the location represents your current directory.
+Note the location represents your current directory.
 
-2.  We will now create a directory specifically for these exercises to keep our work separate from other files on your Raspberry Pi. If you, or someone else, have already done these exercises then this directory may already exist.
+* We will now create a directory specifically for these exercises to keep our work separate from other files on your Raspberry Pi. If you, or someone else, have already done these exercises then this directory may already exist.
 
 >    Type: 'mkdir ~/BashIntroExercises'
 >    Type: 'cd ~/BashIntroExercises'
@@ -17,7 +16,7 @@ For these exercises type the characters in quotes as they are shown below and pr
 
 The '~' Character has a special meaning of "My home directory". The above commands first create a new directory directly below your home directory called 'BashIntroExercises'. The next command changes to that directory, finally we confirm that we are in the expected director.  Note how the output from the 'pwd' command differs from the output in step 1.
 
-3.  We can continue to make further directories and navigate around them as much as we want.
+* We can continue to make further directories and navigate around them as much as we want.
 
 >    Type: 'mkdir newdir'
 >    Type: 'cd newdir'
@@ -27,7 +26,7 @@ The '~' Character has a special meaning of "My home directory". The above comman
 
 This time we created a directory called 'newdir', because we went straight for a name it has been created in out current directory, which is 'BashIntroExercises'. Note the effect of the 'cd' commands.  The second 'cd' command used '..', this is another special character seqeuence that means the parent directory to the one we are currently in.
 
-4.  Now let's try removing (deleting) a directory.
+* Now let's try removing (deleting) a directory.
 
 >    Type: 'rmdir newdir'
 >    Type: 'cd newdir'
@@ -35,14 +34,14 @@ This time we created a directory called 'newdir', because we went straight for a
 
 Note that you removed the directory you created in section 2. The attept to change directory failed, after which you are still in the 'BashIntroExercises' directory.
 
-5.  We can also specify an absolute directory location.
+* We can also specify an absolute directory location.
 
 >    Type: 'cd /tmp'
 >    Type: 'pwd'
 
 Note that you are now in a completely different location. Directory paths starting with a '/' character refer to an absolute location.
 
-6.  Now go back to the course directory.
+* Now go back to the course directory.
 
 >    Type: 'cd ~/BashIntroExercises'
 >    Type: 'pwd'

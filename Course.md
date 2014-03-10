@@ -3,33 +3,33 @@ Introduction to Bash on the Raspberry Pi
 # Introduction
 This is a short course aimed at getting you more confortable using bash on the Raspberry Pi.  
 
-If you are relatively new to the Raspberry Pi, the chances are that you've not never heard of "bash" and are already getting confused by the termnology.  Fear not, "bash" is simply the command line tool with which you can interect with your Raspberry Pi (or other computer).  You access it simply by running one of the various "Terminal" application (e.g. LXTerminal).  
+If you are relatively new to the Raspberry Pi, the chances are that you've never heard of "bash" and are already wondering what this tutorial is /really/ about.  Fear not, "bash" is simply the command line tool with which you can interect with your Raspberry Pi (or other computer).  You access it simply by running one of the various "Terminal" application (e.g. LXTerminal).  
 
-You should start a terminal now so that you can follow along with this couse. When a terminal is started you will be presented with a bash prompt, similar to that below:
+You should start a terminal now so that you can follow along with this course. When a terminal is started you will be presented with a bash prompt, similar to that below:
 
 >   pi@raspberrypi ~ #
 
-This is the default prompt, it shows your username and the name of the computer that you're using. It indicates that "bash" is ready to start running commands.
+This is the default prompt, it shows your username and the name of the computer that you're using, it also shows which directory you are in, but more on that later. Ultimately, this prompt indicates that "bash" is ready to start running your commands.
 
 # Part 1
 
-You are probably used to the concept of files and directories that your computer uses to store information. At the very top is the root directory, below that can be further directories.  Any directory can contain further sub-directories, or files.  Lets get started.
+You are probably used to the concept of files and directories that your computer uses to store information. At the very top is the root directory, below that can be further directories.  Any directory can contain further sub-directories, or files. This might all sound rather confusing at first, but lets get started.
 
 ### pwd
 
-This command is Print Working Directory. It displays you current directory location. You'll notice that it starts with a '/' character.  If you're in the "root" (top) directory, that is all you will see.  Typically, however, you will be in a directory further down that that.  You will therefore see a series of directory names, each separated by a '/' character.
+This command means "Print Working Directory". It displays your current directory location. You will notice that it starts with a '/' character.  If you are in the "root" (top) directory, that is all you will see.  Typically, however, you will be in a directory further down that that.  You will therefore see a series of directory names, each separated by a '/' character.
 
 ### cd
 
-This command is Change Directory. It allows you to change your current directory location. You may move down to a further sub-directory, up to a higher directory, or even select somewhere else entirely.
+This command means "Change Directory". It allows you to change your current directory location. You may move down to a further sub-directory, up to a higher directory, or even select somewhere else entirely.
 
 ### mkdir
 
-This command makes a new directory.
+This command allows you to make a new directory.
 
 ### rmdir
 
-This command deletes a directory.  The directory must be empty (not contain any sub-directories or files.
+This command removes, or deletes, a directory.  The directory must be empty (not contain any sub-directories or files).
 
 *Do exercise 1.*
 

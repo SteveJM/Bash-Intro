@@ -2,14 +2,14 @@
 
 For these exercises type the characters in quotes as they are shown below and press the <Return> key after each line. This exercise assumes that you have successfully completed exercise 1, which created a directory for all of the work called 'BashIntroExercises' in you home directory.
 
-1.  Start by checking that you are in the couse directory:
+* Start by checking that you are in the couse directory:
 
 >    Type: 'cd ~'
 >    Type: 'ls'
 
 You should, see a directory listing, as a minimum you should see you 'BashIntroExercises' directory.
 
-2.  Type: 'ls -a'
+* Type: 'ls -a'
 
 This is a listing of 'all' files and directories in your current directory. As a minimum, note that in addition to the output from 1. above, it includes two special directories:
 
@@ -17,19 +17,19 @@ This is a listing of 'all' files and directories in your current directory. As a
 >    .. This represents the 'parent' directory, i.e. the one above the directory that you are listing
        (you may recall that you used this in the previous section to change directory to the parent directory.
 
-3.  We can also list the contents of any other directory.
+* We can also list the contents of any other directory.
 
 >    Type: 'ls ..'
 
 This is a listing of the contents of your parent directory.
 
-4.  Here's another example:
+* Here's another example:
 
 >    Type: 'ls /tmp'
 
 This is a listing of the '/tmp' directory.
 
-5.  The 'ls' command will also show us more information.
+* The 'ls' command will also show us more information.
 
 >    Type: 'ls -l /tmp'
 
@@ -43,14 +43,14 @@ This is a 'long' listing of the '/tmp' directory. The more useful columns are li
 
 The more astute will also notice that the first character of the permissions field is a 'd' where the item is a directory and a '-' where the item is a regular file.
 
-6.  We now want to create some files, first we will make sure that e are in the course directory.
+* We now want to create some files, first we will make sure that e are in the course directory.
 
 >    Type: 'cd BashIntroExercises'
 >    Type: 'pwd'
 
     You should be in the 'BashIntroExercises' directory that you created during Exercise 1.
 
-7.  Now will will repeat an earlier command with a slight twist.
+* Now will will repeat an earlier command with a slight twist.
 
 >    Type: 'ls -l /tmp > listing.txt'
 
@@ -64,7 +64,7 @@ You should see the 'listing.txt' file in amoungst any other files that you may h
 
 This has displayed the contents of the 'listing.txt' file, as this was ceated by caturing the output from the previous command, the contents should look familiar. Note that the contents of this file is simply the listing of the '/tmp' directory at the time it was created, any changes to the '/tmp' directory will not be included in 'listing.txt'.
 
-8.  Now that we have a file we can make a copy of it.
+* Now that we have a file we can make a copy of it.
 
 >   Type: 'cp listing.txt listing.bak'
 >   Type: 'ls -l'
@@ -77,7 +77,7 @@ You will now see both of the files. Note that either the 'source' file (the firs
 
 Note here that we didn't really give the copy command a new name for the file, we just specified the name of a directory.  When the copy commnand saw that the directory was there, it realised that you simply mean to make a copy of 'listing.txt' in the 'Exercise2Backup' directory.
 
-8.  Alternatively, we can move it to another location.
+* Alternatively, we can move it to another location.
 
 >   Type: 'mv listing.bak Exercise2Backup'
 >   Type: 'ls -l'
@@ -93,7 +93,7 @@ Ahhh, there is it.  As you no doubt expected, you moved it from its current loca
 
 In this case we have moved a file in our directory to another file in our directory, this is simply akin to renaming the file.
 
-9.  Finally, we can delete a file.
+* Finally, we can delete a file.
 
 >   Type: 'rm tmp_listing.txt'
 >   Type: 'ls -l'

@@ -4,13 +4,13 @@ For these exercises type the characters in quotes as they are shown below and pr
 
 1. We are going to start by creating a few files for use in the rest of this exercise. All of the commands used should be familar to you, in fact this will also serve as a useful reminder of what you have learnt so far. Enter the following commands:
 
-    > cd ~/BashIntroExercises
-    > ls -l /tmp > tmp_files
-    > ls -l / > root_files
-    > mkdir one_directory two_directory three_directory
-    > ls -l ~ > one_directory/home_files
-    > ls -l /etc > two_directory/etc_files
-    > ls -l > three_directory/one_files
+    > cd ~/BashIntroExercises  
+    > ls -l /tmp > tmp_files  
+    > ls -l / > root_files  
+    > mkdir one_directory two_directory three_directory  
+    > ls -l ~ > one_directory/home_files  
+    > ls -l /etc > two_directory/etc_files  
+    > ls -l > three_directory/one_files  
     > cp -r one_directory three_directory
 
     Here we have repeatedly used the 'ls' (list) command and captured the output in order to create a few files. Note that when we ran the 'mkdir' (make directory) command we gave it three directory names to create at the same time. Notice also that we have used a '-r' option with the copy command, this tells 'cp' to copy "recursively" (this means copy the source item and everything below it to the destination).
@@ -39,7 +39,7 @@ For these exercises type the characters in quotes as they are shown below and pr
 
 4. Here's a slightly more complicated example, compare the outout of the following two commands:
 
-    > find . -name "one*"
+    > find . -name "one*"  
     > find . -type f -name "old*"
 
     The first command should be simple enough to understand. However, in the second command we have introduced a further concept. The 'find' command can also take a '-type' argument, this must be followed by a further argument indicating the type of item that we are looking for. For now, the two 'types' that we might want to use are 'f' for a file, or 'd' for a directory.
@@ -82,7 +82,7 @@ For these exercises type the characters in quotes as they are shown below and pr
 
 9. Extracting files from a tar file.
 
-    > rm -r three_directory
+    > rm -r three_directory  
     > ls -l
     
     First we have removed the "three_directory". You can see that it has gone.  Now, lets retrieve it from our tar file.  
@@ -95,4 +95,4 @@ For these exercises type the characters in quotes as they are shown below and pr
     Using tar like this to tar up groups of files, verify the contents are as expected and then to extract them again provides us with a simple means of preserving some files, perhaps as a local backup, or to copy to another computer or thumb-drive.
 
 ----
-That completes this exercise. You may wish to further experiment with the 'ls', 'cp', 'cat' and 'rm' commands to make sure that you inderstand them.
+That completes this exercise. You may wish to further experiment with the 'find', 'grep' and 'tar' commands to make sure that you inderstand them.

@@ -6,7 +6,7 @@ For these exercises type the characters in quotes as they are shown below and pr
 
     > top
 
-    You will be presented with a table showing the "processes" that are running. Notice that you can see a few details for each "process", including:
+    You will be presented with a table showing the "processes" that are running. Notice that you can see a few details for each "process", including:  
     
     * The "pid" - this is a unique numeric identifier for each process.
     * The user who is running the process.
@@ -19,7 +19,7 @@ For these exercises type the characters in quotes as they are shown below and pr
 
     > find / -name foo
 
-    Because we are searching for a file named zoo starting at the root directory there will be a lot of directories to search through. This will take some time. You should see the "find" command in the output of the "top" command.  
+    Because we are searching for a file named zoo starting at the root directory there will be a lot of directories to search through. This will take some time. You should see the "find" command in the output of the "top" command.
     
 3. If the "find" command is still running hold down the "Ctrl" key and press C. This is a simple way to stop a command from running. You should get a command prompt back. Now enter the following command:
 

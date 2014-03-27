@@ -8,7 +8,7 @@ Steps 2. onwards of this exercise assumes that you have networking setup and are
     
     > ifconfig
     
-    You will be presented with a list of information sub-divided into a section for each "interface". The most useful parts of this output are the "INTERFACE UP" which indicates that the network interface is active, and the "inet addr:" which shows the "IP Address" that has been assigned to the interface. The the interface is down, or there is no IP Address assigned then the Raspberry Pi will not be able to communicate over this interface. You should have one or more of the following network interfaces available:
+    You will be presented with a list of information sub-divided into a section for each "interface". The most useful parts of this output are the "INTERFACE UP" which indicates that the network interface is active, and the "inet addr:" which shows the "IP Address" that has been assigned to the interface. The the interface is down, or there is no IP Address assigned then the Raspberry Pi will not be able to communicate over this interface. You should have one or more of the following network interfaces available:  
     
     * eth0 - The is a "Ethernet" interface, this will be listed if you have a Model B Raspberry Pi with a "wired" network interface.
     * wlan0 - This is a "Wireless" interface, this will be listed if you have a Wireless Network dongle attached to your Raspberry Pi.The user who is running the process.

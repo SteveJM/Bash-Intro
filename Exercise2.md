@@ -15,6 +15,7 @@ For these exercises type the characters in quotes as they are shown below and pr
 
     >   .  This represents the 'current' directory, i.e. the directory that you are listing.  
     >   .. This represents the 'parent' directory, i.e. the one above the directory that you are listing  
+    
     You may recall that you used this in the previous section to change directory to the parent directory.
 
 3. We can also list the contents of any other directory.

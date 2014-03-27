@@ -10,7 +10,7 @@ This course comprises a course instruction file and a number of exercise files.
 
 It is intended that the course is undertaken in the order presented. The course is divided into 7 parts, each comprising some tuition followed by some exercises. The course may be presented in a series of separate classes, but a whole number of parts should be presented in each session.  
 
-The details provided on the "Course" document should be presented by the teacher / lecturer. The exercises should be given to the students as handouts for them to work through, either individually, or in small groups.  
+The details provided in the "Course" document should be presented by the teacher / lecturer. The exercises should be given to the students as handouts for them to work through, either individually or in small groups.  
 
 Once completed the course notes may be useful as reference material.
 

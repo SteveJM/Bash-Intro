@@ -14,7 +14,7 @@ For these exercises type the characters in quotes as they are shown below and pr
     * Various figures indicating how much memory and cpu the process is using at the current time.
     
     The list is sorted with the processes using the most CPU being shown at the top. This is a good way of seeing what your Raspberry Pi is busy doing. The "top" command keeps running, refreshing the display every few seconds.
-
+    
 2. Lets leave "top" running and start a new terminal window. Then enter the following command:
 
     > find / -name foo
@@ -27,8 +27,8 @@ For these exercises type the characters in quotes as they are shown below and pr
     
     This lists all of the processes that are running. It is similar to "top" but presents the slightly different information.  
     
-    * Notice that it does not keep running after it has listed the processes.
-    * Notice that it lists all of the processes, not only those that fit in one window (you can scroll your terminal window back to see the information that has disappeared off the top of it).
+    * Unlike the 'top' command, you will notice that it does not keep running after it has listed the processes.
+    * You will also see that it lists all of the processes, not only those that fit in one window (you can scroll your terminal window back to see the information that has disappeared off the top of it).
     
     The "ps" command is useful to see what is running on your Raspberry Pi.
     

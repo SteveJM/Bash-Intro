@@ -1,20 +1,20 @@
 # Exercise 5
 
-For these exercises type the characters in quotes as they are shown below and press the <Return> key after each line. This exercise assumes that you have successfully completed exercises 1 to 3, which created a directory for all of the work called 'BashIntroExercises' in you home directory containing several files.
+For these exercises type the characters in quotes as they are shown below and press the <Return> key after each line. This exercise assumes that you have successfully completed exercises 1 to 3, which created a directory for all of the work called 'BashIntroExercises' in you home directory containing several files.  
+
+Steps 2. onwards of this exercise assumes that you have networking setup and are able to communicate over the Internet. If you only have local networking, your teacher should provide some local network computers that you can use instead of those specified.
 
 1. Lets see what network interfaces our Raspberry Pi has. Enter the following command:
-
+    
     > ifconfig
-
+    
     You will be presented with a list of information sub-divided into a section for each "interface". The most useful parts of this output are the "INTERFACE UP" which indicates that the network interface is active, and the "inet addr:" which shows the "IP Address" that has been assigned to the interface. The the interface is down, or there is no IP Address assigned then the Raspberry Pi will not be able to communicate over this interface. You should have one or more of the following network interfaces available:
     
     * eth0 - The is a "Ethernet" interface, this will be listed if you have a Model B Raspberry Pi with a "wired" network interface.
     * wlan0 - This is a "Wireless" interface, this will be listed if you have a Wireless Network dongle attached to your Raspberry Pi.The user who is running the process.
     * lo - This is a "Loopback" interface. It represents a local network connection. We will see that networking is integral to the operation of the Raspberry Pi, this "interface" provides the means for processes that are running to communicate with each other as if they are using a network interface. Notice that this interface always has the IP Address of "127.0.0.1".
     * There may be other interfaces list, but they are beyond the scope of this course.
-   
-The remainder of these exercises assume that you have networking setup and are able to communicate over the Internet. If you only have local networking, your teacher should provide some local network computers that you can use instead of those specified.
-
+       
 2. The most basic network check that we can do to check if we can communicate with another computer. Then the following command:
 
     > ping www.bbc.co.uk

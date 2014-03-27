@@ -24,7 +24,7 @@ For these exercises type the characters in quotes as they are shown below and pr
     >   Type: 'cd ..'  
     >   Type: 'pwd'  
 
-    This time we created a directory called 'newdir', because we went straight for a name it has been created in out current directory, which is 'BashIntroExercises'. Note the effect of the 'cd' commands.  The second 'cd' command used '..', this is another special character seqeuence that means the parent directory to the one we are currently in.
+    This time we created a directory called 'newdir', because we went straight for a name it has been created in out current directory, which is 'BashIntroExercises'. Note the effect of the 'cd' commands.  The second 'cd' command used '..', this is another special character sequence that means the parent directory to the one we are currently in.
 
 4. Now let's try removing (deleting) a directory.
 
@@ -32,7 +32,7 @@ For these exercises type the characters in quotes as they are shown below and pr
     >   Type: 'cd newdir'  
     >   Type: 'pwd'
 
-    Note that you removed the directory you created in section 2. The attept to change directory failed, after which you are still in the 'BashIntroExercises' directory.
+    Note that you removed the directory you created in section 2. The attempt to change directory failed, after which you are still in the 'BashIntroExercises' directory.
 
 5. We can also specify an absolute directory location.
 
@@ -49,4 +49,4 @@ For these exercises type the characters in quotes as they are shown below and pr
     You are back in the 'BashIntroExercises' directory that you created below your 'home' directory.  
 
 ----
-That completes this exercise. You may wish to further experiment with the 'cd', 'mkdir' and 'rmdir' commands to make sure that you inderstand them. If you do, it would be a good idea to repeat section 6. again at the end so that you are back in you home directory.
+That completes this exercise. You may wish to further experiment with the 'cd', 'mkdir' and 'rmdir' commands to make sure that you understand them. If you do, it would be a good idea to repeat section 6. again at the end so that you are back in you home directory.

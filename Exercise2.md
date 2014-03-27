@@ -2,7 +2,7 @@
 
 For these exercises type the characters in quotes as they are shown below and press the <Return> key after each line. This exercise assumes that you have successfully completed exercise 1, which created a directory for all of the work called 'BashIntroExercises' in you home directory.
 
-1. Start by checking that you are in the couse directory:
+1. Start by checking that you are in the course directory:
 
     >   Type: 'cd ~'
     >   Type: 'ls'
@@ -50,19 +50,19 @@ For these exercises type the characters in quotes as they are shown below and pr
 
     You should be in the 'BashIntroExercises' directory that you created during Exercise 1.
 
-7. Now will will repeat an earlier command with a slight twist.
+7. Now we will repeat an earlier command with a slight twist.
 
     >    Type: 'ls -l /tmp > listing.txt'
 
-    You will notice that this command, whilst similar to the one in step 5, has not output anything to the terminal. This command is using output redirection to write the output to a file. The use of redirection is indicated by the '>' character followed by the name of the file to which thev output should be written.  Be careful when using output redirection because if you use the name of an existing file then it will be overwritten.
+    You will notice that this command, whilst similar to the one in step 5, has not output anything to the terminal. This command is using output redirection to write the output to a file. The use of redirection is indicated by the '>' character followed by the name of the file to which the output should be written.  Be careful when using output redirection because if you use the name of an existing file then it will be overwritten.
 
     >   Type: 'ls -l'
 
-    You should see the 'listing.txt' file in amoungst any other files that you may have.
+    You should see the 'listing.txt' file in amongst any other files that you may have.
 
     >   Type: 'cat listing.txt'
 
-    This has displayed the contents of the 'listing.txt' file, as this was ceated by caturing the output from the previous command, the contents should look familiar. Note that the contents of this file is simply the listing of the '/tmp' directory at the time it was created, any changes to the '/tmp' directory will not be included in 'listing.txt'.
+    This has displayed the contents of the 'listing.txt' file, as this was created by capturing the output from the previous command, the contents should look familiar. Note that the contents of this file is simply the listing of the '/tmp' directory at the time it was created, any changes to the '/tmp' directory will not be included in 'listing.txt'.
 
 8. Now that we have a file we can make a copy of it.
 
@@ -75,7 +75,7 @@ For these exercises type the characters in quotes as they are shown below and pr
     >   Type: 'cp listing.txt Exercise2Backup'  
     >   Type: 'ls -l Exercise2Backup'
 
-    Note here that we didn't really give the copy command a new name for the file, we just specified the name of a directory.  When the copy commnand saw that the directory was there, it realised that you simply mean to make a copy of 'listing.txt' in the 'Exercise2Backup' directory.
+    Note here that we didn't really give the copy command a new name for the file, we just specified the name of a directory.  When the copy command saw that the directory was there, it realised that you simply mean to make a copy of 'listing.txt' in the 'Exercise2Backup' directory.
 
 9. Alternatively, we can move it to another location.
 
@@ -110,4 +110,4 @@ For these exercises type the characters in quotes as they are shown below and pr
     Now you will notice that the 'Exercise2Backup' directory has been deleted.  
 
 ----
-That completes this exercise. You may wish to further experiment with the 'ls', 'cp', 'cat' and 'rm' commands to make sure that you inderstand them.
+That completes this exercise. You may wish to further experiment with the 'ls', 'cp', 'cat' and 'rm' commands to make sure that you understand them.

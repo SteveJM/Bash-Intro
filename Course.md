@@ -1,7 +1,7 @@
 # Introduction
-This is a short course aimed at getting you more confortable using bash on the Raspberry Pi.  
+This is a short course aimed at getting you more comfortable using bash on the Raspberry Pi.  
 
-If you are relatively new to the Raspberry Pi, the chances are that you've never heard of "bash" and are already wondering what this tutorial is /really/ about.  Fear not, "bash" is simply the command line tool with which you can interect with your Raspberry Pi (or other computer).  You access it simply by running one of the various "Terminal" application (e.g. LXTerminal).  
+If you are relatively new to the Raspberry Pi, the chances are that you've never heard of "bash" and are already wondering what this tutorial is /really/ about.  Fear not, "bash" is simply the command line tool with which you can interact with your Raspberry Pi (or other computer).  You access it simply by running one of the various "Terminal" application (e.g. LXTerminal).  
 
 You should start a terminal now so that you can follow along with this course. When a terminal is started you will be presented with a bash prompt, similar to that below:
 
@@ -35,15 +35,15 @@ This command removes, or deletes, a directory.  The directory must be empty (not
 
 ### ls
 
-This command lists the contents of the current directory. By default, 'ls' will show you the directories and files that are stored in your current directory. However, you can also give it the name of a directory to list. In common with many of the cammands, 'ls' can be given additional "options".  These 'options' can be used to request more detailed information abount the directory contents. There is always a space between the command itself and the options. The two most common options are '-l' which shows detailed information for each file, such as its size, and '-a' which tells 'ls' to include *all* files (by default files starting with a '.' are considered 'hidden'). Often both of these options are use together, as '-al'.
+This command lists the contents of the current directory. By default, 'ls' will show you the directories and files that are stored in your current directory. However, you can also give it the name of a directory to list. In common with many of the commands, 'ls' can be given additional "options".  These 'options' can be used to request more detailed information about the directory contents. There is always a space between the command itself and the options. The two most common options are '-l' which shows detailed information for each file, such as its size, and '-a' which tells 'ls' to include *all* files (by default files starting with a '.' are considered 'hidden'). Often both of these options are use together, as '-al'.
 
 ### cat
 
-The command 'catalogs' (displays) the contents of a file. Note that it will attempt to work on whatever file it is geven, if the file is not human readable (what we consider to be 'binary' data) you will get gobbledy gook out.
+The command 'catalogues' (displays) the contents of a file. Note that it will attempt to work on whatever file it is given, if the file is not human readable (what we consider to be 'binary' data) you will get gobbledy gook out.
 
 ### cp
 
-This command copies one or more files.  The general syntax is "cp source destination". A useful option is '-R which, if the source is a directory will recusively copy all of the contents below that location to the destination.
+This command copies one or more files.  The general syntax is "cp source destination". A useful option is '-R which, if the source is a directory will recursively copy all of the contents below that location to the destination.
 
 ### mv
 
@@ -93,15 +93,15 @@ This command terminates a process.  It can be useful to stop a process that is c
 
 # Part 5 - Networking
 
-It is very likely that you will use you Raspberry Pi in a network and may need to diagnose network problems. The following commands will assist with that.
+It is very likely that you will use you Raspberry Pi in a network. To do this it will communicate over a number of network "interfaces". We will now look at a number of commands that help us see what is going on and could help to diagnose network problems.
 
 ### ifconfig
 
-Lists the networking interfaces. You may have a "wlan0" (Wireless Network) and / or a eth0 (Wired Network) interfaces.  You wil also see a "lo" (loopback) interface. One of the most useful aspects to check is that the interface has an IP address associated with it, which will generally be displayed on the 2nd line of output for each interface after the words "inet addr:".
+Lists the networking interfaces. You may have a "wlan0" (Wireless Network) and / or a eth0 (Wired Network) interfaces.  You will also see a "lo" (loopback) interface. One of the most useful aspects to check is that the interface has an IP address associated with it, which will generally be displayed on the 2nd line of output for each interface after the words "inet addr:".
 
 ### ping
 
-Attempts to communicate with a remote host using the network. This can be a simple way of checking that you internet connection is working. Note, however, that some computers may choose not to respond to a "ping".
+Attempts to communicate with a remote host using the network. This can be a simple way of checking that you Internet connection is working. Note, however, that some computers may choose not to respond to a "ping".
 
 ### traceroute
 
@@ -121,7 +121,7 @@ This allows you to run commands as a super user (system administrator). Some com
 
 # Part 7 - Being Lazy
 
-Actually, this is really about working fast and efficiently. Some of these concepts might sound a bit tricky at first, however, once you get used to using them they can really save the aount of typing that you have to do, and therefore your time.
+Actually, this is really about working fast and efficiently. Some of these concepts might sound a bit tricky at first, however, once you get used to using them they can really save the amount of typing that you have to do, and therefore your time.
 
 ### history
 
@@ -139,7 +139,7 @@ To save remembering and typing directory and file names you can use the tab key.
 
 # Further Reading
 
-I hope that this short couse has helped you to become more familiar and comfortable using the Raspberry Pi command line. Once you have grasped the commands that I have described above you will no doubt want to learn more about them.
+I hope that this short course has helped you to become more familiar and comfortable using the Raspberry Pi command line. Once you have grasped the commands that I have described above you will no doubt want to learn more about them.
 
 ### Help
 
@@ -147,10 +147,10 @@ Most commands take an option '-h' that displays some concise information on how 
 
 ### Manual Pages
 
-There is a further command called 'man' (short for manual). You can use 'man command' (replace the word 'command' with that actual command that you want to see the manual pages for). This displays much more comphrehensive information on what the command does and how to use it. At first the manual pages can seem slightly intimidating, however, they are generally written to present the information in a very precise manner. This information is perfect for learning more about the capabilities of a command.
+There is a further command called 'man' (short for manual). You can use 'man command' (replace the word 'command' with that actual command that you want to see the manual pages for). This displays much more comprehensive information on what the command does and how to use it. At first the manual pages can seem slightly intimidating, however, they are generally written to present the information in a very precise manner. This information is perfect for learning more about the capabilities of a command.
 
 # Feedback
 
-I welcome any feedback that you may have on this course. Subject to sufficient demand I will write a follow-on course going into some of the more advanced uses of the commands descibed here and introduce some new commands.  
+I welcome any feedback that you may have on this course. Subject to sufficient demand I will write a follow-on course going into some of the more advanced uses of the commands described here and introduce some new commands.  
 
 Thank you.

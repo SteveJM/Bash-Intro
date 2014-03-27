@@ -2,7 +2,7 @@
 
 For these exercises type the characters in quotes as they are shown below and press the <Return> key after each line. This exercise assumes that you have successfully completed exercise 1, which created a directory for all of the work called 'BashIntroExercises' in you home directory.
 
-1. We are going to start by creating a few files for use in the rest of this exercise. All of the commands used should be familar to you, in fact this will also serve as a useful reminder of what you have learnt so far. Enter the following commands:
+1. We are going to start by creating a few files for use in the rest of this exercise. All of the commands used should be familiar to you, in fact this will also serve as a useful reminder of what you have learnt so far. Enter the following commands:
 
     > cd ~/BashIntroExercises  
     > ls -l /tmp > tmp_files  
@@ -21,7 +21,7 @@ For these exercises type the characters in quotes as they are shown below and pr
 
     The full 'pathname' of the 'home_files' file is displayed. We talk about a complete directory and filename as being a path. But what did we ask the 'find' command to do ?  
     
-    We gave the find command three 'arguments' (arguments are simply paramters that the command we are running is given to use, we have already been using arguments with the other commands that we have been running, such as directory or file names.  
+    We gave the find command three 'arguments' (arguments are simply parameters that the command we are running is given to use, we have already been using arguments with the other commands that we have been running, such as directory or file names.  
     
     The first argument ('.') is the starting location from where we want to start looking. You might recall from exercise 2, step 2 that '.' means "the current directory".  
     
@@ -29,7 +29,7 @@ For these exercises type the characters in quotes as they are shown below and pr
     
     The final argument is the name that we are looking for.
     
-    So, putting it altogether we said find anything called 'home_files' starting with the current directory. You can now see the effect of the recusive copy command.
+    So, putting it altogether we said find anything called 'home_files' starting with the current directory. You can now see the effect of the recursive copy command.
 
 3. Now for a more advanced use, type the following:
 
@@ -52,9 +52,9 @@ For these exercises type the characters in quotes as they are shown below and pr
     
     Notice that here the wildcard character was not quoted.  This is a subtle difference in what we are asking. When we ran find, we wanted the find command to know that we are looking for anything ending with '.log'. In this case we want grep to search through any files in our current directory.  
     
-    If we had missed the quotes off from the find command it would have tried to match files in our durrent directory, not found any, and then given us an error.  
+    If we had missed the quotes off from the find command it would have tried to match files in our current directory, not found any, and then given us an error.  
     
-    If we had included quotes around the wildcard in trhe grep command, it would have looked for a file explicitly called '*', not found one, and similarly given us an error.
+    If we had included quotes around the wildcard in the grep command, it would have looked for a file explicitly called '*', not found one, and similarly given us an error.
 
 6. Suppose, rather than the matching occurrences we want to know the name of the item that contained the match, well grep can do that for us too:
 
@@ -72,9 +72,9 @@ For these exercises type the characters in quotes as they are shown below and pr
     
     Well, we gave it three options all at once '-c' '-v' and '-f'. The '-c' option instructed tar to Create a new "tar" file.  The '-v' option instructed tar to give us verbose output of its activities.  The '-f' option told tar that we wanted the output written to a file. Because we used the '-f' option, the next argument must be the name of the file in which it is to store our files. Finally we gave it the name of the item that we wanted to include. Often we call this "tarring up some files"; we just tar'd up our "three_directory".  
     
-    You will notive that tar works recursively and can see the contents of the tar file being created. Note, also that we could have included further items (directories or files) on the end of the tar command to be included.
+    You will notice that tar works recursively and can see the contents of the tar file being created. Note, also that we could have included further items (directories or files) on the end of the tar command to be included.
 
-8. Examing a tar file.
+8. Examining a tar file.
 
     > tar -tvf files.tar
     
@@ -90,9 +90,9 @@ For these exercises type the characters in quotes as they are shown below and pr
     > tar -xvf files.tar
     > ls -l
 
-    The tar command was similay to those used previously, except we used the '-x' option to eXtraxt our files. You can see the tar command list the files that it extracted and can then see that the "three_directory" has been restored.  
+    The tar command was similar to those used previously, except we used the '-x' option to eXtraxt our files. You can see the tar command list the files that it extracted and can then see that the "three_directory" has been restored.  
     
     Using tar like this to tar up groups of files, verify the contents are as expected and then to extract them again provides us with a simple means of preserving some files, perhaps as a local backup, or to copy to another computer or thumb-drive.
 
 ----
-That completes this exercise. You may wish to further experiment with the 'find', 'grep' and 'tar' commands to make sure that you inderstand them.
+That completes this exercise. You may wish to further experiment with the 'find', 'grep' and 'tar' commands to make sure that you understand them.
